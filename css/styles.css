@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title  */
+#title .container-fluid {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* NavBar */
+.navbar {
+  padding: 0 0 4.5rem;
+  /* width: 100%; */
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Feature Tab  */
+.feature-title {
+  font-size: 1.4rem;
+}
+#features {
+  position: relative;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4686;
+}
+.feature-desc {
+  line-height: 2;
+  color: #8f8f8f;
+}
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonials  */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press  */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+.price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.btn-signup {
+  width: 80%;
+}
+.card-body {
+  line-height: 1;
+}
+.short-desc {
+  font-size: 1.5rem;
+}
+
+/* CTA  */
+.cta-desc {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+/* Footer */
+#footer {
+  padding: 3% 15%;
+  font-family: "IBM Plex Serif", serif;
+  color: #8f8f8f;
+}
+.foot-icon {
+  color: #000000;
+  padding: 20px 10px;
+}
+.foot-icon:hover {
+  color: blue;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
